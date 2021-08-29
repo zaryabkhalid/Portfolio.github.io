@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaryab Portfolio Demo</title>
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/74f5e3563f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Navbar Section -->
+    <navbar>
+        <div class="navbar">
+            <h2 class="logo">Portfolio</h2>
+            <input type="checkbox" id="chk">
+            <label for="chk" class="show-menu-btn">
+                <i class="fas fa-bars"></i>
+            </label>
+
+
+            <ul class="menu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">My team</a>
+                <a href="#">Projects</a>
+                <a href="#">Contact</a>
+
+                <label for="chk" class="hide-menu-btn">
+                    <i class="fas fa-times"></i>
+                </label>
+            </ul>
+        </div>
+    </navbar>
+
+    <!-- Hero text Section -->
+    <section class="container">
+        <div id="intro">
+            <h1>Hi,</h1>
+            <h1> My name Zaryab</h1>
+            <h3>And i am a Web Frontend Developer</h3>
+            <a id="btn-find" href="#">Find out more</a>
+        </div>
+        <div id="intro-img">
+            <img src="/images/banner-image.png" alt="Web Frontend Developer">
+        </div>
+    </section>
+
+    <div class="about">
+        <div id="about-content">
+            <h2 id="about-txt">Hi, I'm Zaryab. Nice to meet you.</h2>
+            <p id="about-des">Since beginning my journey as a freelance designer nearly 1 years ago, I've done remote
+                work for agencies, consulted for startups, and collaborated with talented people to create digital
+                products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually
+                working on improving my chops one design problem at a time.</p>
+        </div>
+    </div>
+
+
+    <!-- Tools and tech Section -->
+    <section >
+        <div id="tool-tech-content">
+
+            <div id="designer">
+                <img src="images/png/development.png">
+                <h2 id="designer-heading">Designer</h2>
+                <p class="paragraph" id="designer-des">I value simple content structure, clean design patterns, and
+                    thoughtful interactions.</p>
+                <p class="paragraph"><span id="designer-hobby"> I enjoy designing:</span> <br> UX, UI, Web, Mobile,
+                    Apps,
+                    Logos</p>
+
+                <ul class="tool-list" id="designer-ul">
+                    <p class="paragraph" id="designer-tools">Design Tools:</p>
+                    <li>Balsamiq Mockups</li>
+                    <li>Figma</li>
+                    <li>Invision</li>
+                    <li>Marvel</li>
+                    <li>Pen & Paper</li>
+                    <li>Sketch</li>
+                    <li> Webflow</li>
+                    <li> Zeplin</li>
+                </ul>
+
+            </div>
+
+
+            <div id="Frontend-dev">
+                <img src="images/png/mobile-devices.png">
+                <h2 id="Frontend-heading">Frontend Developer</h2>
+                <p class="paragraph" id="Frontend-des">I value simple content structure, clean design patterns, and
+                    thoughtful interactions.</p>
+                <p class="paragraph"><span id="Frontend-hobby"> Language I Speak:</span> <br> HTML, Pug, Slim, CSS,
+                    Sass,
+                    Less</p>
+
+                <ul class="tool-list" id="frontend-ul">
+                    <p class="paragraph" id="Frontend-tools">Dev Tools:</p>
+                    <li>Atom</li>
+                    <li>Bitbucket</li>
+                    <li>Bootstrap</li>
+                    <li>Bulma</li>
+                    <li>Codekit</li>
+                    <li>Codepen</li>
+                    <li>Github</li>
+                    <li>Gitlab</li>
+                    <li>Termina</li>
+                </ul>
+
+            </div>
+            <div id="mentor">
+                <img src="images/png/search-1355847_640.png">
+                <h2 id="mentor-heading">Mentor</h2>
+                <p class="paragraph" id="mentor-des">I value simple content structure, clean design patterns, and
+                    thoughtful
+                    interactions.</p>
+                <p class="paragraph"><span id="mentor-hobby"> Experiences I draw from:</span> <br> UX/UI, Product
+                    design,
+                    Freelancing</p>
+
+                <ul class="tool-list" id="mentor-ul">
+                    <p class="paragraph" id="mentor-tools">Mentor Stats:</p>
+                    <li>5 years experience</li>
+                    <li>26 short courses</li>
+                    <li>42 bootcamps</li>
+                    <li>125+ students</li>
+                    <li>1,400+ mentor sessions</li>
+                    <li>60+ group critiques</li>
+                    <li>12,000+ comments</li>
+                </ul>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Recent work Grid flow -->
+    <section>
+        <div class="grid-projects">
+            <h2 class="recent-work-title">My Recent Web Projects</h2>
+            <p class="recent-work-description">Here are a few design projects I've worked on recently. Want to see
+                more?<span id="email-me"><a href="#"> Email me.</a></span></p>
+            <div class="project-grid-container">
+                <div class="project-img-container">
+                    <img class="web-project-img" src="images/Project-img-1.jpg" alt="Web-Project-1">
+                    <div class="img-overly">
+                        <h2 class="img-title">Web Project One</h2>
+                        <p class="img-des">Web Project one description is add here.</p>
+                    </div>
+                </div>
+
+                <div class="project-img-container">
+                    <img class="web-project-img" src="images/Project-img-2.jpg" alt="Web-Project-2">
+                    <div class="img-overly">
+                        <h2 class="img-title">Web Project One</h2>
+                        <p class="img-des">Web Project one description is add here.</p>
+                    </div>
+                </div>
+
+
+                <div class="project-img-container">
+                    <img class="web-project-img" src="images/Project-img-3.jpg" alt="Web-Project-3">
+                    <div class="img-overly">
+                        <h2 class="img-title">Web Project Three</h2>
+                        <p class="img-des">Web Project three description is add here.</p>
+                    </div>
+                </div>
+
+
+                <div class="project-img-container">
+                    <img class="web-project-img" src="images/Project-img-4.jpg" alt="Web-Project-4">
+                    <div class="img-overly">
+                        <h2 class="img-title">Web Project Four</h2>
+                        <p class="img-des">Web Project four description is add here.</p>
+                    </div>
+                </div>
+
+
+                <div class="project-img-container">
+                    <img class="web-project-img" src="images/Project-img-5.jpg" alt="Web-Project-5">
+                    <div class="img-overly">
+                        <h2 class="img-title">Web Project Five</h2>
+                        <p class="img-des">Web Project five description is add here.</p>
+                    </div>
+                </div>
+
+
+                <div class="project-img-container">
+                    <img class="web-project-img" src="images/Project-img-6.jpg" alt="Web-Project-6">
+                    <div class="img-overly">
+                        <h2 class="img-title">Web Project Six</h2>
+                        <p class="img-des">Web Project six description is add here.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="see-more">
+                <a id="btn_dribble" href="#">See more on Dribble</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Companies Collaboration div -->
+    <section>
+        <div class="companies-container">
+            <h1>I'm proud to have collaborated with some awesome companies:</h1>
+            <img src="images/Company-logos.png">
+        </div>
+    </section>
+
+<section>
+    <div class="startup-container">
+        <div class="startup-content">
+            <h2 id="startup-txt">My Startup Projects</h2>
+            <p id="startup-des">I'm a bit of a digital product junky. Over the years, I've used hundreds of web and
+                mobile apps in different industries and verticals. Eventually, I decided that it would be a fun
+                challenge to try designing and building my own.</p>
+        </div>
+    </div>
+
+
+        <div id="startup-g-container">
+            <div class="company company-1">
+                <img src="images/Company-logo1.png">
+                <p>Next level plug and play chassis systems for custom do-it-yourself lightsaber builds.</p>
+                <a href=#>In development</a>
+            </div>
+            <div class="company company-2">
+                <img src="images/Company-logo2.png">
+                <p>Simple feedback and engagement tools for teams that want to build and ship winning products.</p>
+                <a href=#>In development</a>
+            </div>
+            <div class="company company-3">
+                <img src="images/Company-logo3.png">
+                <p>A powerful, easy-to-configure form backend for designers and developers. No coding required.</p>
+                <a href=#>www.Wilko.com</a>
+            </div>
+            <div class="company company-4">
+                <img src="images/Company-logo4.png">
+                <p>Beautifully simple websites for independent distributors of Young Living Essential Oils.</p>
+                <a href=#>www.Superdrug.com</a>
+            </div>
+            <div class="company company-5">
+                <img src="images/Company-logo5.png">
+                <p>A collaborative tool for creating simple, effective user personas for design projects.</p>
+                <a href=#>www.Teteossian.com</a>
+            </div>
+            <div class="company company-6">
+                <img src="images/Company-logo6.png">
+                <p>A space and member management solution for coworking communities both big and small.</p>
+                <a href=#>In development</a>
+            </div>
+
+        </div>
+</section>
+
+
+<section>
+        <div class="startup-footer-content">
+            <h2 id="startup-footer-txt">Interested in collaborating or investing?</h2>
+            <p id="startup-footer-des">I’m always open to discussing product design work or partnership opportunities.
+            </p>
+            <a id="btn-conversation" href="#">Start a conversataion</a>
+        </div>
+
+    <!-- Testimonial -->
+        <div class="testimonial-header">
+            <h1>Testimonials</h1>
+            <p>People I've worked with have said some nice things...</p>
+        </div>
+        <div class="testimonial-container">
+            <div class="testimonial-content">
+                <img src="images/image-jeanette.jpg">
+                <p>“Matt was a real pleasure to work with and we look forward to working with him again. He’s definitely
+                    the kind of designer you can trust with a project from start to finish.”</p>
+                <h4>Jeanette Law</h4>
+                <p>Jr.Database Developer</p>
+            </div>
+            <div class="testimonial-content">
+                <img src="images/image-jonathan.jpg">
+                <p>“Matt's a clear communicator with the tenacity and confidence to really dig in to tricky design
+                    scenarios and the collaborative friction that's needed to produce excellent work.”</p>
+                <h4>Jonathan Henricks</h4>
+                <p>Sr.Systen Engenier</p>
+            </div>
+            <div class="testimonial-content">
+                <img src="images/image-kira.jpg">
+                <p>“Matt's a clear communicator with the tenacity and confidence to really dig in to tricky design
+                    scenarios and the collaborative friction that's needed to produce excellent work.”</p>
+                <h4>Kira Jhonson</h4>
+                <p>Creative Mind</p>
+            </div>
+        </div>
+</section>
+
+
+    <!-- footer-header -->
+    <div class="footer">
+        <div class="footer-container">
+            <h1>Start a Project</h1>
+            <p>Interested in working together? We should queue up a chat. I’ll buy the coffee.</p>
+            <div class="btn-do"><a id="btn-doit" href="#">Let's do this</a></div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="mailchip"><i class="fab fa-mailchimp"></i></div>
+            <p id="site-des">Living, learning, & leveling up one day at a time.</p>
+            <div class="site-icons">
+                <a class="icon" href="#"><i class="fab fa-facebook"></i></a>
+                <a class="icon" href="#"><i class="fab fa-instagram"></i></a>
+                <a class="icon" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="icon" href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a class="icon" href="#"><i class="fab fa-telegram"></i></a>
+                <a class="icon" href="#"><i class="far fa-envelope"></i></a>
+            </div>
+
+            <p class="designer">Designed by Zaryab Khalid <span>&copy</span> 2021.</p>
+        </div>
+    </div>
+
+    <button id="btn-scroll-up"><i class="fas fa-arrow-up"></i></button>
+    <button id="btn-scroll-down"><i class="fas fa-arrow-down"></i></button>
+
+    <script src="javascript/main.js"></script>
+
+
+
+</body>
+
+</html>
