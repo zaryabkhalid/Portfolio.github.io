@@ -708,9 +708,6 @@ text-decoration: none;
         line-height: normal;
         transition: 0.7s;
     }
-    #btn-scroll-up,#btn-scroll-down{
-        visibility: hidden;
-    }
     .menu a{
         display: block;
         padding: 20px;
@@ -722,6 +719,7 @@ text-decoration: none;
     }
     #chk:checked ~ .menu{
         right: 0;
+        
     }
 }
 
