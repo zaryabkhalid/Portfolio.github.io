@@ -88,7 +88,7 @@ a:hover, .show-menu-btn:hover, .hide-menu-btn:hover {
     z-index: -1111;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     .show-menu-btn,.hide-menu-btn{
         display: block;
     }
@@ -167,18 +167,18 @@ a:hover, .show-menu-btn:hover, .hide-menu-btn:hover {
 .about{
     background-color:var(--moderate-voilet);
     font-family: 'Montserrat', sans-serif;
-    height: 600px;
+    height: 500px;
     width: 100vw;
 }
 #about-content{
     position: relative;
-    top: 120px;
+    top: 70px;
     margin: auto;
     width: 50%;
     color: var(--item-background-white);
 }
 #about-txt{
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     font-size: 2rem;
 }
@@ -186,13 +186,13 @@ a:hover, .show-menu-btn:hover, .hide-menu-btn:hover {
     font-size: 1.2rem;
     font-weight: 300;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 #tool-tech-content{
     background: var(--item-background-white);
     position: relative;
-    bottom: 200px;
+    bottom: 120px;
     display: flex;
     justify-content: space-between;
     width: 70%;
@@ -401,22 +401,20 @@ text-decoration: none;
 }
 
 .startup-container{
-    position: relative;
     background-color:var(--moderate-voilet);
     font-family: 'Montserrat', sans-serif;
-    height: 600px;
+    height: 500px;
     width: 100vw;
 }
 .startup-content{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 50%;
+    position: relative;;
+    width: 70%;
+    top: 70px;
     color: var(--item-background-white);
+    margin: 0 auto;
 }
 #startup-txt{
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     font-size: 2rem;
     font-weight: 800;
@@ -427,8 +425,8 @@ text-decoration: none;
     font-size: 1.2rem;
     font-weight: 300;
     text-align: center;
-    padding: 20px;
-    width:60%;
+    padding: 10px;
+    width:50%;
     margin: 0 auto;
 }
 
@@ -869,38 +867,10 @@ text-decoration: none;
 
 }
 
-@media screen and (max-width: 800px) {
-    .show-menu-btn,.hide-menu-btn{
-        display: block;
-    }
-    .menu{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: var(--moderate-voilet);
-        right: -100%;
-        top: 0;
-        text-align: center;
-        padding: 80px 0;
-        line-height: normal;
-        transition: 0.7s;
-    }
-    .menu a{
-        display: block;
-        padding: 20px;
-    }
-    .hide-menu-btn{
-        position: absolute;
-        top: 40px;
-        right: 40px;
-    }
-    #chk:checked ~ .menu{
-        right: 0;
-    }
-}
 
 
-@media screen and (max-width:800px)  {
+
+@media screen and (max-width: 768px)  {
     .container{
         display: block;
         width: 100%;
