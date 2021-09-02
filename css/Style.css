@@ -35,9 +35,15 @@ body{
 
  /* nav-container */
 
+
 .navbar{
     background-color: var(--moderate-voilet);
     height: 80px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1;
     padding: 0 20px;
     color: var(--item-background-white);
 }
@@ -88,7 +94,7 @@ a:hover, .show-menu-btn:hover, .hide-menu-btn:hover {
     z-index: -1111;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 940px) {
     .show-menu-btn,.hide-menu-btn{
         display: block;
     }
@@ -870,7 +876,7 @@ text-decoration: none;
 
 
 
-@media screen and (max-width: 768px)  {
+@media screen and (max-width: 940px)  {
     .container{
         display: block;
         width: 100%;
